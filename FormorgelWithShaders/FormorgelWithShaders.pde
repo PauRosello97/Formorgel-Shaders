@@ -18,11 +18,10 @@ void draw() {
   
   shader(shader);
   
-  beginShape();
+  beginShape(TRIANGLE);
     vertex(0.1, 0.1);
     vertex(0.0, 0.0);
-    vertex(0.2, 0.02);
-    vertex(0.3, 0.4);
+    vertex(0.001, 0.02);
   endShape();
   
 }
